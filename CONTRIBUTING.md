@@ -13,12 +13,12 @@ As a contributor, here are the guidelines we would like you to follow:
 
 There are several ways how you can ask your question:
 
-* You can create a question on [StackOverflow](https://stackoverflow.com/questions/tagged/typeorm) where the questions should be tagged with tag `typeorm`.
+* You can create a question on [StackOverflow](https://stackoverflow.com/questions/tagged/typeorm) where the questions should be tagged with the tag `typeorm`.
 * You can ask on [Slack](https://join.slack.com/t/typeorm/shared_invite/zt-uu12ljeb-OH_0086I379fUDApYJHNuw)
-* You can create issue on [github](https://github.com/typeorm/typeorm/issues)
-* If you have a Skype then try to find me there (`Umed Khudoiberdiev`)
+* You can create an issue on [GitHub](https://github.com/typeorm/typeorm/issues)
+* If you have a Skype, then try to find me there (`Umed Khudoiberdiev`)
 
-Preferred way if you create your question on StackOverflow, or create a github issue.
+Preferred way if you create your question on StackOverflow, or create a GitHub issue.
 
 ## <a name="issue"></a> Found a security vulnerability?
 
@@ -48,10 +48,10 @@ and help you to craft the change so that it is successfully accepted into the pr
 ### <a name="submit-issue"></a> Submitting an Issue
 
 Before you submit an issue, please search the issue tracker,
-maybe an issue for your problem already exists and the discussion might inform you of workarounds readily available.
+maybe an issue for your problem already exists, and the discussion might inform you of workarounds readily available.
 
 We want to fix all the issues as soon as possible, but before fixing a bug we need to reproduce and confirm it.
- In order to reproduce bugs we ask you to provide a minimal code snippet that shows a reproduction of the problem.
+ In order to reproduce bugs, we ask you to provide a minimal code snippet that shows a reproduction of the issue.
 
 You can file new issues by filling out our [new issue form](https://github.com/typeorm/typeorm/issues/new).
 
@@ -66,7 +66,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      git checkout -b my-fix-branch master
      ```
 
-* Create your patch, **including appropriate test cases**. Without tests your PR will not be accepted.
+* Create your patch, **including appropriate test cases**. Without tests, your PR will not be accepted.
 * Run the full TypeORM test suite, as described in the [developer documentation](DEVELOPER.md), and ensure that all tests pass.
 * Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit). Adherence to these conventions is necessary because release notes are automatically generated from these messages.
 
@@ -99,7 +99,7 @@ That's it! Thank you for your contribution!
 After your pull request is merged, you can safely delete your branch and pull the changes
 from the main (upstream) repository:
 
-* Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
+* Delete the remote branch on GitHub, either through the GitHub web UI or your local shell, as follows:
 
     ```shell
     git push origin --delete my-fix-branch
@@ -142,7 +142,7 @@ format that includes a **type** and a **subject**:
 <footer>
 ```
 
-Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
+Any line of the commit message cannot be longer than 100 characters! This allows the message to be easier
 to read on GitHub as well as in various git tools.
 
 ### Revert
@@ -156,7 +156,7 @@ Must be one of the following:
 * **feat**: A new feature
 * **fix**: A bug fix
 * **docs**: Documentation only changes
-* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semicolons, etc.)
 * **refactor**: A code change that neither fixes a bug nor adds a feature
 * **perf**: A code change that improves performance
 * **test**: Adding missing tests or correcting existing tests
@@ -164,10 +164,10 @@ Must be one of the following:
 * **chore**: Other changes that don't modify `src` or `test` files
 
 ### Subject
-The subject contains succinct description of the change:
+The subject contains a succinct description of the change:
 
 * use the imperative, present tense: "change" not "changed" nor "changes"
-* don't capitalize first letter
+* don't capitalize the first letter
 * no dot (.) at the end
 
 ### Body
@@ -192,13 +192,13 @@ Implement new feature:
 ```
 feat: implement new magic decorator
 
-This new feature change bahviour of typeorm to allow use new magic decorator...
+This new feature change behavior of TypeORM to allow use new magic decorator…
 
 Closes: #22222
 ```
 Docs update:
 ```
-docs: update supported mssql column types
+docs: update supported MySQL column types
 ```
 Breaking change:
 ```
@@ -218,7 +218,7 @@ Anyone can file an expense. If the expense makes sense for the development of th
 
 ### Contributors
 
-Thank you to all the people who have already contributed to typeorm!
+Thank you to all the people who have already contributed to TypeORM!
 <a href="../../graphs/contributors"><img src="https://opencollective.com/typeorm/contributors.svg?width=890" /></a>
 
 
