@@ -4,7 +4,7 @@
   Please fill in the information below to expedite the review
   and (hopefully) merge of your change.
 
-  If unsure about something.. just do as best as you're able,
+  If unsure about something. Just do as best as you're able,
   or reach out through our community support channels!
   https://github.com/typeorm/typeorm/blob/master/docs/support.md
 -->
@@ -16,12 +16,12 @@
   why this change is needed, and how you've verified that it
   corrects what you intended.
 
-  In some cases it may be helpful to include the current behavior
+  In some cases, it may be helpful to include the current behavior
   and the new behavior.
 
   If the change is related to an open issue, you can link it here.
   If you include `Fixes #0000` (replacing `0000` with the issue number)
-  when this is merged it will automatically mark the issue as fixed and
+  when this is merged, it will automatically mark the issue as fixed and
   close it.
 -->
 
@@ -29,7 +29,7 @@
 ### Pull-Request Checklist
 
 <!--
-  Please make sure to review and check all of the following.
+  Please make sure to review and check all the following.
 
   If an item is not applicable, you can add "N/A" to the end.
 -->
