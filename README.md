@@ -21,10 +21,10 @@
 </div>
 
 TypeORM is an [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping)
-that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms
+that can run in Node.js, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms
 and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 Its goal is to always support the latest JavaScript features and provide additional features
-that help you to develop any kind of application that uses databases - from
+that help you to develop any kind of application that uses databases – from
 small applications with a few tables to large scale enterprise applications
 with multiple databases.
 
@@ -46,7 +46,7 @@ TypeORM is highly influenced by other ORMs, such as [Hibernate](http://hibernate
 -   Clean object relational model.
 -   Associations (relations).
 -   Eager and lazy relations.
--   Uni-directional, bi-directional and self-referenced relations.
+-   Uni-directional, bidirectional and self-referenced relations.
 -   Supports multiple inheritance patterns.
 -   Cascades.
 -   Indices.
@@ -68,14 +68,14 @@ TypeORM is highly influenced by other ORMs, such as [Hibernate](http://hibernate
 -   Schema declaration in models or separate configuration files.
 -   Supports MySQL / MariaDB / Postgres / CockroachDB / SQLite / Microsoft SQL Server / Oracle / SAP Hana / sql.js.
 -   Supports MongoDB NoSQL database.
--   Works in NodeJS / Browser / Ionic / Cordova / React Native / NativeScript / Expo / Electron platforms.
+-   Works in Node.js / Browser / Ionic / Cordova / React Native / NativeScript / Expo / Electron platforms.
 -   TypeScript and JavaScript support.
 -   ESM and CommonJS support.
 -   Produced code is performant, flexible, clean and maintainable.
 -   Follows all possible best practices.
 -   CLI.
 
-And more...
+And more…
 
 With TypeORM your models look like this:
 
@@ -173,7 +173,7 @@ await timber.remove()
 
     `npm install reflect-metadata --save`
 
-    and import it somewhere in the global place of your app (for example in `app.ts`):
+    and import it somewhere in the global place of your app (for example, in `app.ts`):
 
     `import "reflect-metadata"`
 
